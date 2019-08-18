@@ -12,6 +12,8 @@
 		9B9A491E230920EE00267B11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A491C230920EE00267B11 /* Main.storyboard */; };
 		9B9A4920230920F000267B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A491F230920F000267B11 /* Assets.xcassets */; };
 		9B9A4923230920F000267B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A4921230920F000267B11 /* LaunchScreen.storyboard */; };
+		9B9A492C230920FC00267B11 /* SongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A492A230920FC00267B11 /* SongTableViewController.swift */; };
+		9B9A492D230920FC00267B11 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A492B230920FC00267B11 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9B9A491F230920F000267B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B9A4922230920F000267B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B9A4924230920F000267B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9A492A230920FC00267B11 /* SongTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewController.swift; sourceTree = "<group>"; };
+		9B9A492B230920FC00267B11 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				9B9A4918230920EE00267B11 /* AppDelegate.swift */,
 				9B9A491A230920EE00267B11 /* ViewController.swift */,
+				9B9A492A230920FC00267B11 /* SongTableViewController.swift */,
+				9B9A492B230920FC00267B11 /* ImageViewController.swift */,
 				9B9A491C230920EE00267B11 /* Main.storyboard */,
 				9B9A491F230920F000267B11 /* Assets.xcassets */,
 				9B9A4921230920F000267B11 /* LaunchScreen.storyboard */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B9A491B230920EE00267B11 /* ViewController.swift in Sources */,
+				9B9A492C230920FC00267B11 /* SongTableViewController.swift in Sources */,
+				9B9A492D230920FC00267B11 /* ImageViewController.swift in Sources */,
 				9B9A4919230920EE00267B11 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
